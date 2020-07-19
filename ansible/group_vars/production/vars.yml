@@ -1,0 +1,4 @@
+---
+neo4j_password: "{{ vault_neo4j_password }}"
+default_listen_address: 0.0.0.0
+...
