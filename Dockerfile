@@ -4,7 +4,7 @@ RUN apt-get update
 RUN apt-get install -y python3-pip python3-apt openssh-server openssh-client
 RUN apt-get install -y sudo curl nano
 RUN pip3 install --upgrade pip
-RUN pip3 install ansible
+RUN pip3 install ansible==2.9
 
 # SSH config
 RUN mkdir /var/run/sshd
